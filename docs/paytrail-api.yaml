@@ -1700,7 +1700,7 @@ components:
           description: Street address
         postalCode:
           type: string
-          pattern: '^\d+$'
+          pattern: '^[0-9A-z -]+$'
           example: '00100'
           maxLength: 15
           description: Postal code
